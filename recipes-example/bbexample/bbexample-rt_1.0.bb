@@ -13,8 +13,8 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
 SRC_URI = "https://github.com/DynamicDevices/bbexample/archive/bbexample-v${PV}.tar.gz"
 
-SRC_URI[md5sum] = "e15723f0d5ac710bbe788cd3a797bc44"
-SRC_URI[sha256sum] = "0b34eb133596348bb6f1a3ef5e05e4d5bf0c88062256affe768d8337d7cc8f83"
+SRC_URI[md5sum] = "a040115592f4200188a805368d9456ff"
+SRC_URI[sha256sum] = "589b22fc6c2c0b266223c5988f0e33f5c2f03a114da9145e722e3552a0edd308"
 
 # Make sure our source directory (for the build) matches the directory structure in the tarball
 # A tagged tarball from github contains a folder which includes the github tag, so deal with it here
